@@ -1,0 +1,14 @@
+.carousel {
+    
+    position: relative;
+    
+  }
+  
+  .carousel .carousel-item img {
+    width: 100%;
+    max-height: 500px; 
+    height: auto; 
+    object-fit: cover; 
+    
+  }
+  

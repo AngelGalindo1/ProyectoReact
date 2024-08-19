@@ -1,0 +1,60 @@
+.galeria {
+  display: flex;
+  justify-content: center; 
+  width: 100%; 
+}
+
+.galeria-item {
+  background: linear-gradient(90deg, #000000, #000000, #0039f3);
+  width: 100%; 
+  height: 400px; 
+  display: flex;
+  align-items: center; 
+  
+  
+}
+
+.Mclaren {
+  max-width: 50%; 
+  max-height: 100%; 
+  height: auto; 
+  margin-right: 20px; 
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+ 
+  
+}
+
+.text-container {
+  flex: 1; 
+}
+
+.text-container p {
+  margin: 0; 
+  font-size: 45px; 
+  line-height: 1.5; 
+  margin-top: 10px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+@media (max-width: 768px) {
+  .galeria-item {
+    flex-direction: column; 
+    height: auto; 
+    text-align: center; 
+  }
+
+  .Mclaren {
+    margin-right: 0; 
+    max-width: 80%; 
+    margin-bottom: 20px; 
+  }
+}
+
+
